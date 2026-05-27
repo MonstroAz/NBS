@@ -1,0 +1,6 @@
+{
+  "name": "NBS 3.0",
+  "description": "A sleek, premium baccarat strategy, dynamic prediction, and bankroll management companion based on the Five-Count Baccarat System.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

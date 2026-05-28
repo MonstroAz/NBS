@@ -1,21 +1,38 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://i.imgur.com/bxIJZ1e.png" />
-</div>
+# NBS 3.0
 
-# Run and deploy your AI Studio app
+> A sleek, premium baccarat strategy, dynamic prediction, and bankroll management companion based on the Five-Count Baccarat System.
 
-This contains everything you need to run your app locally.
+NBS 3.0 is a comprehensive Android application designed to assist Baccarat players in tracking their bankroll, analyzing predictive trends, and optimizing their play using the Five-Count strategy.
 
-View your app in AI Studio: https://ai.studio/apps/0a7db548-977e-48f2-a933-a9aeec35b9ec
+## ✨ Features
 
-## Run Locally
+- **Five-Count Strategy Implementation:** Advanced baccarat tracking tailored to the Five-Count system.
+- **Dynamic Prediction:** Real-time analysis and predictive trend insights to guide players.
+- **Bankroll Management:** Thorough financial tracking to manage wins, losses, and overall exposure.
+- **Offline Capable:** Local state and database persistence so your statistics and session data are always available offline.
+- **Responsive Design:** A premium, fully responsive UI built natively using Jetpack Compose, supporting adaptiveness on any mobile screen.
+- **Ad-Supported:** Integrated gracefully with Google AdMob for sustainable development.
 
-**Prerequisites:**  [Android Studio](https://developer.android.com/studio)
+## 🛠️ Technology Stack
 
+- **Language:** Kotlin
+- **UI Framework:** Jetpack Compose (Material Design 3)
+- **Local Database:** Room Database & SQLite
+- **Architecture:** MVVM (Model-View-ViewModel) with Coroutines and flows
+- **Monetization:** Google Mobile Ads SDK (AdMob)
 
-1. Open Android Studio
-2. Select **Open** and choose the directory containing this project
-3. Allow Android Studio to fix any incompatibilities as it imports the project.
-4. Create a file named `.env` in the project directory and set `GEMINI_API_KEY` in that file to your Gemini API key (see `.env.example` for an example)
-5. Remove this line from the app's `build.gradle.kts` file: `signingConfig = signingConfigs.getByName("debugConfig")`
-6. Run the app on an emulator or physical device
+## 🔒 Privacy & Safety
+
+Your data’s safety is important. No personal gameplay information is collected or sent remotely. For more details on what third-party SDKs (like AdMob) collect, please refer to our [Privacy Policy](PRIVACY_POLICY.md).
+
+## 🚀 Installation & Build
+
+To build the application locally:
+1. Clone this repository.
+2. Open the project in Android Studio.
+3. Sync the Gradle files.
+4. Build the application and install it on an emulator or an Android device.
+
+## 📝 License
+
+Copyright 2026 NEXT SOLUTIONS. All Rights Reserved.
